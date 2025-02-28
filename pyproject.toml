@@ -1,0 +1,17 @@
+[project]
+name = "hexlet-code"
+version = "0.1.0"
+description = "Flask-based page analyzer application for SEO analysis"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1.0",
+    "gunicorn>=23.0.0",
+    "python-dotenv>=1.0.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+    "pytest-cov>=6.0.0",
+    "ruff>=0.9.7",
+]
